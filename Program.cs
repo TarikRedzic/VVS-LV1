@@ -68,7 +68,7 @@ namespace LoanManagement
                     int r = baza.RegistrujKorisnika(u, p);
                     if (r > 0)
                     {
-                        Console.WriteLine("User registered");
+                        Console.WriteLine("Userovan registar");
                         mail.PosaljiDobrodoslicu(u + "@example.com");
                     }
                 }
